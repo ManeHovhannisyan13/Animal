@@ -11,6 +11,7 @@ namespace Animal
     abstract class Animal
     {
         public string Name { get; set; }
+        public string Description { get; set; }
 
         public void SetName(string name)
         {
